@@ -118,7 +118,7 @@ void Phone_Directory::save()
 string Phone_Directory::remove_entry(const string& name) // Exercise 1.7: please complete the remove_entry() method - Ed/Kent
 {
 	int index = find(name);
-	string notInDirectory = NULL;
+	string notInDirectory = "";
 	string deletedNum;
 	if (index == -1)
 	{
